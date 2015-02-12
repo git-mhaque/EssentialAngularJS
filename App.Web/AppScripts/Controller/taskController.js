@@ -63,7 +63,7 @@
         $scope.loadProjects();
     }
 
-    $scope.addProject = function () {
+    $scope.saveProject = function () {
         appService.saveProject($scope.vmFormProject).then(function (rvm) {
             if (rvm.Success) {
                 toaster.pop('success', "Success", rvm.SuccessMessage);
