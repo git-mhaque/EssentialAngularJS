@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularArchitecture\AngularArchitecture.csproj">
+    <ProjectReference Include="..\AngularArchitecture\App.Web.csproj">
       <Project>{08F5437C-AEA9-42AB-A834-E93B57AE97DA}</Project>
-      <Name>AngularArchitecture</Name>
+      <Name>App.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

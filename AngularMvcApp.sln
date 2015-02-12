@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularArchitecture", "AngularArchitecture\AngularArchitecture.csproj", "{08F5437C-AEA9-42AB-A834-E93B57AE97DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web", "AngularArchitecture\App.Web.csproj", "{08F5437C-AEA9-42AB-A834-E93B57AE97DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularArchitecture.Tests", "AngularArchitecture.Tests\AngularArchitecture.Tests.csproj", "{F2469075-3DD7-4985-BEF7-545A7F606EBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tests", "AngularArchitecture.Tests\App.Tests.csproj", "{F2469075-3DD7-4985-BEF7-545A7F606EBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
