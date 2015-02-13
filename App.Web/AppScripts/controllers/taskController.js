@@ -6,13 +6,13 @@
 
     $scope.rvmProject = null;
 
-    $scope.submitSuccess = false;
-    $scope.submitClicked = true;
-    $scope.serverValidationErrors = [];
-    $scope.hasServerValidationError = false;
-    $scope.hasServerCommunicationError = false;
-    $scope.customValidation = false;
-    $scope.message = "";
+    //$scope.submitSuccess = false;
+    //$scope.submitClicked = true;
+    //$scope.serverValidationErrors = [];
+    //$scope.hasServerValidationError = false;
+    //$scope.hasServerCommunicationError = false;
+    //$scope.customValidation = false;
+    //$scope.message = "";
 
     $scope.vmFormProject = {};
     $scope.vmListProject = {};
