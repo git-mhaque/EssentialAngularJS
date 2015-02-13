@@ -38,8 +38,8 @@ namespace AngularArchitecture
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                              "~/AppScripts/app.js",
-                             "~/AppScripts/Service/appService.js",
-                             "~/AppScripts/Directive/mycomponent.js"
+                             "~/AppScripts/services/appService.js",
+                             "~/AppScripts/directives/appDirectives.js"
                              ));
 
 

@@ -11,3 +11,18 @@
 
     };
 });
+
+
+
+angular.module('app').directive("auditPanel", function () {
+    return {
+        restrict: "E",
+        replace: true,
+        scope: {
+            who: "=",
+            when: "="
+        },
+        templateUrl: "/AppScripts/directives/audit-panel.html"
+    };
+});
+

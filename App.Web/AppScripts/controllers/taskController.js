@@ -1,5 +1,9 @@
 ﻿angular.module('app').controller('PlayerCtrl', function ($scope, appService,toaster) {
   
+    $scope.vm = {};
+    $scope.vm.Who = "jsmith";
+    $scope.vm.When = "2015-02-13T16:34:21";
+
 
 
     $scope.vmFormProject = {};
