@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularArchitecture\App.Web.csproj">
+    <ProjectReference Include="..\App.Web\App.Web.csproj">
       <Project>{08F5437C-AEA9-42AB-A834-E93B57AE97DA}</Project>
       <Name>App.Web</Name>
     </ProjectReference>

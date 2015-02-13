@@ -229,8 +229,8 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="AppScripts\app.js" />
     <Content Include="AppScripts\controllers\taskController.js" />
-    <Content Include="AppScripts\directives\appDirectives.js" />
-    <Content Include="AppScripts\services\appService.js" />
+    <Content Include="AppScripts\directives\app-directives.js" />
+    <Content Include="AppScripts\services\app-service.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\errors.json" />
