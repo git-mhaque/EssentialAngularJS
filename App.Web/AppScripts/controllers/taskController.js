@@ -4,7 +4,15 @@
     $scope.vm.Who = "jsmith";
     $scope.vm.When = "2015-02-13T16:34:21";
 
+    $scope.rvmProject = null;
 
+    $scope.submitSuccess = false;
+    $scope.submitClicked = true;
+    $scope.serverValidationErrors = [];
+    $scope.hasServerValidationError = false;
+    $scope.hasServerCommunicationError = false;
+    $scope.customValidation = false;
+    $scope.message = "";
 
     $scope.vmFormProject = {};
     $scope.vmListProject = {};
@@ -68,15 +76,17 @@
     }
 
     $scope.saveProject = function () {
+        
         appService.saveProject($scope.vmFormProject).then(function (rvm) {
+            $scope.rvmProject = rvm;
             if (rvm.Success) {
-                toaster.pop('success', "Success", rvm.SuccessMessage);
+                //toaster.pop('success', "Success", rvm.SuccessMessage);
                 $scope.vmFormProject = {};
                 $scope.loadProjects();
             } else {
-                console.log(rvm.Errors);
-                toaster.pop('error', "Error", rvm.Errors[0].Message);
-                
+                //$scope.submitClicked = true;
+                //console.log(rvm.Errors);
+                //toaster.pop('error', "Error", rvm.Errors[0].Message);
             }
 
 

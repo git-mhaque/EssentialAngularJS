@@ -46,6 +46,21 @@ namespace AngularArchitecture.Services
 
             if (vm.ProjectID == 0)
             {
+                if (vm.Name == null) 
+                {
+                    rvm.AddError("Project name cannot be empty");
+                }
+                if (vm.Description == null)
+                {
+                    rvm.AddError("Project description cannot be empty");
+                }
+
+
+                if (rvm.ErrorCount > 0) 
+                {
+                    return rvm;
+                }
+                
                 var existingProject = from rec in _projectList
                                       where rec.Name.Equals(vm.Name,StringComparison.InvariantCultureIgnoreCase)
                                       select rec;

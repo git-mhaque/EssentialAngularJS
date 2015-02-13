@@ -9,10 +9,10 @@
     
     <toaster-container></toaster-container>
 
-    <form class="form-horizontal" novalidate>
-        
-        <!-- submit feedback-->
-        
+    <form class="form-horizontal" name="form" novalidate >
+
+        <submit-feedback rvm="rvmProject"></submit-feedback>
+
         <div class="form-group">
             <div class="row">
                 <div class="col-md-2">
@@ -21,7 +21,10 @@
                     </label>
                 </div>
                 <div class="col-md-5">
-                    <input type="text" placeholder="Enter project name" ng-model="vmFormProject.Name" class="form-control" />
+                    <input type="text" name="Name" placeholder="Enter project name" ng-model="vmFormProject.Name" class="form-control" />
+                </div>
+                <div class="col-md-3">
+                    <span class="text-danger" ng-show="form.Name.$error.required && submitClicked">* Project name is required.</span>
                 </div>
             </div>
             <div class="row">

@@ -25,3 +25,14 @@ angular.module('app').directive("auditPanel", function () {
     };
 });
 
+angular.module('app').directive("submitFeedback", function () {
+    return {
+        restrict: "E",
+        replace: true,
+        scope: {
+            rvm: "=",
+        },
+        templateUrl: "/AppScripts/directives/submit-feedback.html"
+    };
+});
+

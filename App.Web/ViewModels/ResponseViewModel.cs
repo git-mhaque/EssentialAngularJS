@@ -22,7 +22,9 @@ namespace AngularArchitecture.ViewModels
         public string SuccessMessage { get { return _successMessage; } set { _successMessage = value; } }
         
         public object Data { get; set; }
-        
+
+        public int ErrorCount { get { return _responseError == null ? 0 : _responseError.Count; } }
+
         public List<ErrorViewModel> Errors { get { return _responseError; } }
         
         public void AddError(string tag, string type, string message) 
