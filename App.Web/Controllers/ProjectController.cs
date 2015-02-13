@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace AngularArchitecture.Content
 {
-    public class TaskController : BaseController
+    public class ProjectController : BaseController
     {
         public ActionResult Index()
         {

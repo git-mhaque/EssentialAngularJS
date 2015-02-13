@@ -35,7 +35,7 @@ namespace AngularArchitecture.Services
         {
             ResponseViewModel rvm = new ResponseViewModel();
 
-            rvm.Data = _projectList;
+            rvm.Data = _projectList.OrderByDescending(q => q.ProjectID);
 
             return rvm;
         }

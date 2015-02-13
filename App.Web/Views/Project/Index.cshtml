@@ -5,16 +5,16 @@
 }
 
 <div ng-controller="PlayerCtrl" data-ng-init="initPage();">
-    <h2>Task</h2>
+    <h2>Projects</h2>
     
-    <toaster-container></toaster-container>
+    @*<toaster-container></toaster-container>*@
 
     <form class="form-horizontal" name="form" novalidate >
 
         <submit-feedback rvm="rvmProject"></submit-feedback>
 
-        <div class="form-group">
-            <div class="row">
+        <div class="form-group" style="padding-left:15px;  padding-right:15px;">
+            <div class="row top-buffer">
                 <div class="col-md-2">
                     <label class="control-label" for="ddlPatientTitle">
                         Project Name
@@ -24,10 +24,9 @@
                     <input type="text" name="Name" placeholder="Enter project name" ng-model="vmFormProject.Name" class="form-control" />
                 </div>
                 <div class="col-md-3">
-                    <span class="text-danger" ng-show="form.Name.$error.required && submitClicked">* Project name is required.</span>
                 </div>
             </div>
-            <div class="row">
+            <div class="row top-buffer">
                 <div class="col-md-2">
                     <label class="control-label" for="ddlPatientTitle">
                         Project Description
@@ -37,16 +36,17 @@
                     <input type="text" placeholder="Enter project description" ng-model="vmFormProject.Description" class="form-control" />
                 </div>
             </div>
-            <div class="row">
+            <div class="row top-buffer">
                 <div class="col-md-2">
                     <label class="control-label" for="ddlPatientTitle">
-                        <button class="btn btn-sm btn-success" ng-click="saveProject()">Save Project</button>
+                        <button class="btn  btn-primary" ng-click="saveProject()">Save Project</button>
                     </label>
                 </div>
                 <div class="col-md-5">
                 </div>
             </div>
         </div>
+    
     </form>
 
 
@@ -58,21 +58,12 @@
          k-filterable="false" 
          k-pageable='{ "refresh": false, "pageSizes": true }'></div>
 
-    @*
-    <p>
-        <input type="text" placeholder="Enter your name here" ng-model="name" />
-    </p>
-    <p>
-        <my-component text="Click Me" clickevent="sayHello()" myvalue="name"></my-component>
-    </p>
-    *@
-
-    <audit-panel who="vm.Who" when="vm.When" ng-show="true"></audit-panel>
+    @*<audit-panel who="vm.Who" when="vm.When" ng-show="true"></audit-panel>*@
   
 
 </div>
 
 
 @section Scripts {
-    <script src=@Scripts.Url("~/AppScripts/controllers/taskController.js")></script>
+    <script src=@Scripts.Url("~/AppScripts/controllers/project-controller.js")></script>
 }

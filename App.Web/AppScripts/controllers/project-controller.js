@@ -1,18 +1,6 @@
 ﻿angular.module('app').controller('PlayerCtrl', function ($scope, appService,toaster) {
   
-    $scope.vm = {};
-    $scope.vm.Who = "jsmith";
-    $scope.vm.When = "2015-02-13T16:34:21";
-
     $scope.rvmProject = null;
-
-    //$scope.submitSuccess = false;
-    //$scope.submitClicked = true;
-    //$scope.serverValidationErrors = [];
-    //$scope.hasServerValidationError = false;
-    //$scope.hasServerCommunicationError = false;
-    //$scope.customValidation = false;
-    //$scope.message = "";
 
     $scope.vmFormProject = {};
     $scope.vmListProject = {};
@@ -33,13 +21,13 @@
         },
         {
             field: "StartDate",
-            title: "Start",
+            title: "Start Date",
             type: "date",
             template: '#= kendo.toString(kendo.parseDate(StartDate),"dd/MM/yyyy")#',
         },
         {
             field: "EndDate",
-            title: "End",
+            title: "Finish Date",
             type: "date",
             template: '#= kendo.toString(kendo.parseDate(EndDate),"dd/MM/yyyy")#',
         },
