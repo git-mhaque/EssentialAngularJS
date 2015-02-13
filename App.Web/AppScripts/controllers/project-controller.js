@@ -39,8 +39,7 @@
         $scope.vmFormProject = obj.dataItem;
 
     };
-
-
+    
     $scope.loadProjects = function () {
         appService.getProjectList().then(function (rvm) {
             if (rvm.Success) {
@@ -57,8 +56,7 @@
             //console.log(rvm);
         });
     }
-
-
+    
     $scope.initPage = function () {
         $scope.loadProjects();
     }
@@ -66,13 +64,14 @@
     $scope.saveProject = function () {
         
         appService.saveProject($scope.vmFormProject).then(function (rvm) {
+
             $scope.rvmProject = rvm;
+
             if (rvm.Success) {
                 //toaster.pop('success', "Success", rvm.SuccessMessage);
                 $scope.vmFormProject = {};
                 $scope.loadProjects();
             } else {
-                //$scope.submitClicked = true;
                 //console.log(rvm.Errors);
                 //toaster.pop('error', "Error", rvm.Errors[0].Message);
             }

@@ -67,7 +67,7 @@ namespace AngularArchitecture.Services
 
                 if (existingProject != null && existingProject.Count()  > 0)
                 {
-                    rvm.AddError("A project with the same naem already exists, please choose a different name.");
+                    rvm.AddError("A project with the same name already exists, please choose a different name.");
                 }
                 else
                 {
