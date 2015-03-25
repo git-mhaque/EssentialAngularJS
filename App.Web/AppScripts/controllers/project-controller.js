@@ -5,6 +5,13 @@
     $scope.vmFormProject = {};
     $scope.vmListProject = {};
 
+
+    $scope.datePickerConfig = {
+        //max: new Date(), // takes todays date
+        parseFormats: ["yyyy-MM-dd", "dd/MM/yyyy", "yyyy/MM/dd", "yyyy"]
+    }
+
+
     $scope.gridColumns = [
         {
             field: "ProjectID",

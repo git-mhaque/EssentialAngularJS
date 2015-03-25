@@ -197,6 +197,7 @@
     <Compile Include="ViewModels\ResponseViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppScripts\directives\list-editor.html" />
     <Content Include="AppScripts\directives\submit-feedback.html" />
     <Content Include="AppScripts\directives\audit-panel.html" />
     <Content Include="Content\bootstrap.css" />

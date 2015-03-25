@@ -62,7 +62,7 @@ namespace AngularArchitecture.Services
                 }
                 
                 var existingProject = from rec in _projectList
-                                      where rec.Name.Equals(vm.Name,StringComparison.InvariantCultureIgnoreCase)
+                                      where rec.Name != null && rec.Name.Equals(vm.Name,StringComparison.InvariantCultureIgnoreCase)
                                       select rec;
 
                 if (existingProject != null && existingProject.Count()  > 0)

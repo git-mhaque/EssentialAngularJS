@@ -36,3 +36,14 @@ angular.module('app').directive("submitFeedback", function () {
     };
 });
 
+angular.module('app').directive("listEditor", function () {
+    return {
+        restrict: "E",
+        replace: true,
+        scope: {
+            inputText: "=",
+            listItems: "",
+        },
+        templateUrl: "/AppScripts/directives/list-editor.html"
+    };
+});
