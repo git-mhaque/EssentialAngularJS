@@ -41,8 +41,7 @@ angular.module('app').directive("listEditor", function () {
         restrict: "E",
         replace: true,
         scope: {
-            inputText: "=",
-            listItems: "",
+            listItem: "@"
         },
         templateUrl: "/AppScripts/directives/list-editor.html"
     };

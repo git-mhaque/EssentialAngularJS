@@ -206,6 +206,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Routing\app.js" />
+    <Content Include="Routing\baseline.html" />
+    <Content Include="Routing\demographic.html" />
+    <Content Include="Routing\index.html" />
+    <Content Include="Routing\style.css" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -1001,6 +1006,19 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="ToDoApp\readme.txt" />
+    <Content Include="ToDoApp\V3\app.js" />
+    <Content Include="ToDoApp\V3\index.html" />
+    <Content Include="ToDoApp\V3\style.css" />
+    <Content Include="ToDoApp\V3\todoService.js" />
+    <Content Include="ToDoApp\V3\todoController.js" />
+    <Content Include="ToDoApp\V2\app.js" />
+    <Content Include="ToDoApp\V2\index.html" />
+    <Content Include="ToDoApp\V2\style.css" />
+    <Content Include="ToDoApp\V1\app.js" />
+    <Content Include="ToDoApp\V1\index.html" />
+    <Content Include="ToDoApp\V1\style.css" />
+    <Content Include="ToDoApp\V2\todoController.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

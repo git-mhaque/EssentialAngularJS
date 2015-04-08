@@ -79,7 +79,7 @@
                 $scope.vmFormProject = {};
                 $scope.loadProjects();
             } else {
-                //console.log(rvm.Errors);
+                console.log(rvm.Errors);
                 //toaster.pop('error', "Error", rvm.Errors[0].Message);
             }
 
