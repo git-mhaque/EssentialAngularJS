@@ -26,8 +26,4 @@ function todoController($scope) {
         $scope.newItem = "";
     };
 
-    $scope.isEmptyList = function () {
-        return $scope.items.length == 0;
-    };
-
 }

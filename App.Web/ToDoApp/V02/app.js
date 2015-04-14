@@ -2,7 +2,10 @@
 
 function todoController($scope) {
 
-    $scope.items = ["Shopping", "Book flight", "Call Dad", "Catchup with Mash", "Create an angular app"];
+    $scope.items = [
+        "Call Dad",
+        "Book flight"
+    ];
 
     $scope.newItem = "";
 
@@ -20,8 +23,5 @@ function todoController($scope) {
         $scope.newItem = "";
     };
 
-    $scope.isEmptyList = function () {
-        return $scope.items.length == 0;
-    };
 
 }
