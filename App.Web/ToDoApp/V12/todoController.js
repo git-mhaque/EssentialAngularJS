@@ -39,6 +39,18 @@
         todoService.saveTasks($scope.items);
     };
 
+    $scope.itemStatusChanged = function (index) {
+        console.log($scope.items[index].isDone);
+        todoService.saveTasks($scope.items);
+    };
+
+    $scope.sortableOptions = {
+        stop: function(e, ui) { 
+            console.log("Sortable completed");
+            todoService.saveTasks($scope.items);
+        }
+    };
+
 
     $scope.isEmptyList = function () {
         return $scope.items.length == 0;

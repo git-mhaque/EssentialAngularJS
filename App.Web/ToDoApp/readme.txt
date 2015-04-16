@@ -14,8 +14,8 @@ V9 Editable list | ng-show, ng-class
 V10 Sortable + additional module | ui-sortable
 
 V11 Splitting module and controller into separate js files 
+V12 Adding service with localstorage capability | ng-change   
 
-V12 Adding service with localstorage capability Service + localstorge | TODO: update on done/undone + sorting 
 
 V13 Service + REST API + promise
 V14 Custom directives 
