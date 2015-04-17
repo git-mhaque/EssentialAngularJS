@@ -3,17 +3,11 @@ angular.module('todoApp').factory('todoService', function () {
     var factory = {};
 
     factory.getTasks = function () {
+        var tasks = [];
 
-        var tasks = [
-            { text: "Shopping", isDone: false, editMode: false },
-            { text: "Book flight", isDone: false, editMode: false },
-            { text: "Call Dad", isDone: false, editMode: false },
-            { text: "Create an angular app", isDone: true, editMode: false },
-        ];
-
-        //factory.saveTasks(tasks);
-
-        var tasks = JSON.parse(localStorage["LOCAL_DATA"]);
+        if (localStorage["LOCAL_DATA"]) {
+            tasks = JSON.parse(localStorage["LOCAL_DATA"]);
+        }
 
         return tasks;
     };
@@ -21,8 +15,6 @@ angular.module('todoApp').factory('todoService', function () {
     factory.saveTasks = function (tasks) {
         localStorage["LOCAL_DATA"] = JSON.stringify(tasks);
     };
-
-
 
     return factory;
 });

@@ -1006,7 +1006,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="ToDoApp\readme.txt" />
+    <None Include="ToDoApp\readme.md" />
     <Content Include="ToDoApp\V00\app.js" />
     <Content Include="ToDoApp\V00\index.html" />
     <Content Include="ToDoApp\V00\style.css" />
