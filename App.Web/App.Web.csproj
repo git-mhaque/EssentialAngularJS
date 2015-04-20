@@ -1037,9 +1037,6 @@
     <Content Include="ToDoApp\V09\app.js" />
     <Content Include="ToDoApp\V09\index.html" />
     <Content Include="ToDoApp\V09\style.css" />
-    <Content Include="ToDoApp\_Base\app.js" />
-    <Content Include="ToDoApp\_Base\index.html" />
-    <Content Include="ToDoApp\_Base\style.css" />
     <Content Include="ToDoApp\V12\app.js" />
     <Content Include="ToDoApp\V12\index.html" />
     <Content Include="ToDoApp\V12\style.css" />
