@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="RegistryApp\summary.html" />
+    <Content Include="RegistryApp\footer.html" />
+    <Content Include="RegistryApp\header.html" />
+    <Content Include="RegistryApp\patientHome.html" />
+    <Content Include="RegistryApp\home.html" />
     <Content Include="ToDoApp\readme.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
