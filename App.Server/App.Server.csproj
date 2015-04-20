@@ -206,11 +206,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Routing\app.js" />
-    <Content Include="Routing\baseline.html" />
-    <Content Include="Routing\demographic.html" />
-    <Content Include="Routing\index.html" />
-    <Content Include="Routing\style.css" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -1006,49 +1001,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <None Include="ToDoApp\readme.md" />
-    <Content Include="ToDoApp\V00\app.js" />
-    <Content Include="ToDoApp\V00\index.html" />
-    <Content Include="ToDoApp\V00\style.css" />
-    <Content Include="ToDoApp\V01\app.js" />
-    <Content Include="ToDoApp\V01\index.html" />
-    <Content Include="ToDoApp\V01\style.css" />
-    <Content Include="ToDoApp\V02\app.js" />
-    <Content Include="ToDoApp\V02\index.html" />
-    <Content Include="ToDoApp\V02\style.css" />
-    <Content Include="ToDoApp\V03\app.js" />
-    <Content Include="ToDoApp\V03\index.html" />
-    <Content Include="ToDoApp\V03\style.css" />
-    <Content Include="ToDoApp\V04\app.js" />
-    <Content Include="ToDoApp\V04\index.html" />
-    <Content Include="ToDoApp\V04\style.css" />
-    <Content Include="ToDoApp\V05\app.js" />
-    <Content Include="ToDoApp\V05\index.html" />
-    <Content Include="ToDoApp\V05\style.css" />
-    <Content Include="ToDoApp\V06\app.js" />
-    <Content Include="ToDoApp\V06\index.html" />
-    <Content Include="ToDoApp\V06\style.css" />
-    <Content Include="ToDoApp\V07\app.js" />
-    <Content Include="ToDoApp\V07\index.html" />
-    <Content Include="ToDoApp\V07\style.css" />
-    <Content Include="ToDoApp\V08\app.js" />
-    <Content Include="ToDoApp\V08\index.html" />
-    <Content Include="ToDoApp\V08\style.css" />
-    <Content Include="ToDoApp\V09\app.js" />
-    <Content Include="ToDoApp\V09\index.html" />
-    <Content Include="ToDoApp\V09\style.css" />
-    <Content Include="ToDoApp\V12\app.js" />
-    <Content Include="ToDoApp\V12\index.html" />
-    <Content Include="ToDoApp\V12\style.css" />
-    <Content Include="ToDoApp\V12\todoService.js" />
-    <Content Include="ToDoApp\V12\todoController.js" />
-    <Content Include="ToDoApp\V11\app.js" />
-    <Content Include="ToDoApp\V11\index.html" />
-    <Content Include="ToDoApp\V11\style.css" />
-    <Content Include="ToDoApp\V10\app.js" />
-    <Content Include="ToDoApp\V10\index.html" />
-    <Content Include="ToDoApp\V10\style.css" />
-    <Content Include="ToDoApp\V11\todoController.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1092,7 +1044,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
