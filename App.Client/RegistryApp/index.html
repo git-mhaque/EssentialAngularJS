@@ -36,15 +36,37 @@
             <hr />-->
 
             <div class="container">
+
                 <div class="row">
                     <div ng-include="'header.html'"></div>
                 </div>
-                <div class="row">
-                    <div ng-view></div>
-                </div>
+
+                <div ng-switch="patientSelected">
+
+                    <div ng-switch-when="true">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="nav">
+                                    <li><a href="#/PatientHome/Summary/1">Summary</a></li>
+                                    <li><a href="#/PatientHome/Demographic/1">Demographic</a></li>
+                                    <li><a href="#/PatientHome/Baseline/1">Baseline</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-9">
+                                <div ng-view></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div ng-switch-when="false">
+                        <div ng-view></div>
+                    </div>
+
+
                 <div class="row">
                     <div ng-include="'footer.html'"></div>
                 </div>
+
             </div>
 
 

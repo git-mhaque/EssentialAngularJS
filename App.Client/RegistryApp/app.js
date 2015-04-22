@@ -34,6 +34,7 @@ angular.module('regApp').config(['$routeProvider',
 
 angular.module('regApp').controller('mainController', function ($scope) {
     $scope.message = 'Main';
+    $scope.patientSelected = true;
 });
 
 
