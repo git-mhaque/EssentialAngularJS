@@ -1,4 +1,4 @@
-Roadmap
+Essential AngularJS concepts in 15 steps
 ========================
 
 * **Chapter 0: Dynamic UI** 
@@ -7,7 +7,7 @@ Roadmap
 
 * **Chapter 1: Hello AngularJS** 
 	
-	Concepts: app.js | angular.module | ng-app | ng-controller | ng-model | {{ variable }}
+	Concepts: two-way data binding | ng-model | app.js | angular.module | ng-app | ng-controller | {{ variable }}
 
 * **Chapter 2: Creating a simple form with validations**
 	
