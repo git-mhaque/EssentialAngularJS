@@ -1,67 +1,67 @@
 Essential AngularJS concepts in 15 steps
 ========================
 
-* **Chapter 0: Dynamic UI** 
+* **Step 0: Dynamic UI** 
 	
 	Concepts: DOM access 
 
-* **Chapter 1: Hello AngularJS** 
+* **Step 1: Hello AngularJS** 
 	
-	Concepts: two-way data binding | ng-model | app.js | angular.module | ng-app | ng-controller | {{ variable }}
+	Concepts: ng-model | app.js | angular.module | ng-app | ng-controller | {{ variable }}
 
-* **Chapter 2: Creating a simple form with validations**
+* **Step 2: Creating a simple form with validations**
 	
 	Concepts: ng-required | ng-valid | ng-dirty | ng-pristine 
 	
-* **Chapter 3: Creating a very basic ToDo app** 
+* **Step 3: Creating a very basic ToDo app** 
 	
 	Concepts: array | ng-keypress | ng-repeat
 
-* **Chapter 4: Marking tasks as done (ToDo App)**  
+* **Step 4: Marking tasks as done (ToDo App)**  
 	
 	Concepts: JSON object | JSON object array
 
-* **Chapter 5: Styling completed tasks (ToDo App)**
+* **Step 5: Styling completed tasks (ToDo App)**
 	
 	Concepts: ng-class
 
-* **Chapter 6: Showing progress (ToDo App)** 
+* **Step 6: Showing progress (ToDo App)** 
 	
 	Concepts: {{ function() }}
 
-* **Chapter 7: Limiting the maximum number of tasks (ToDo App)** 
+* **Step 7: Limiting the maximum number of tasks (ToDo App)** 
 	
 	Concepts: ng-disabled
 
-* **Chapter 8: Removing tasks (ToDo App)** 
+* **Step 8: Removing tasks (ToDo App)** 
 	
 	Concepts: ng-click
 
-* **Chapter 9: Handling an empty task list (ToDo App)** 
+* **Step 9: Handling an empty task list (ToDo App)** 
 	
 	Concepts: ng-show
 
-* **Chapter 10: Editing tasks (ToDo App)** 
+* **Step 10: Editing tasks (ToDo App)** 
 	
 	Concepts: ng-show | ng-class 
 
-* **Chapter 11: Sorting tasks (ToDo App)**  
+* **Step 11: Sorting tasks (ToDo App)**  
 	
-	Concepts: using 3rd party modules | ui-sortable |  
+	Concepts: using a 3rd party module | ui-sortable 
 
-* **Chapter 12: Structuring the app code (ToDo App)** 
+* **Step 12: Structuring the app code (ToDo App)** 
 	
 	Concepts: separate js files for module and controller  
 
-* **Chapter 13: Using service (ToDo App)** 
+* **Step 13: Using service (ToDo App)** 
 	
 	Concepts: ng-change | service | localStorage 
 	
-* **Chapter 14: Creating Custom HTML elements**
+* **Step 14: Creating Custom HTML elements**
 	
 	Concepts: custom directives | widget library | KendoUI   
 
-* **Chapter 15: Architecting complex applications**
+* **Step 15: Architecting complex applications**
 	
 	URL: [Example project](https://github.com/git-mhaque/Angular-SPA-WebAPI)
 	
