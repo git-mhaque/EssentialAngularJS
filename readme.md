@@ -1,68 +1,68 @@
-﻿Roadmap
+Roadmap
 ========================
 
-* **V0: Dynamic UI** 
+* **Chapter 0: Dynamic UI** 
 	
 	Concepts: DOM access 
 
-* **V1: Hello AngularJS!** 
+* **Chapter 1: Hello AngularJS** 
 	
 	Concepts: app.js | angular.module | ng-app | ng-controller | ng-model | {{ variable }}
 
-* **V2: Creating a form **
+* **Chapter 2: Creating a simple form with validations**
 	
 	Concepts: ng-required | ng-valid | ng-dirty | ng-pristine 
 	
-* **V3: [ToDo App] A very basic app** 
+* **Chapter 3: Creating a very basic ToDo app** 
 	
 	Concepts: array | ng-keypress | ng-repeat
 
-* **V4: [ToDo App] Marking tasks as completed**  
+* **Chapter 4: Marking tasks as done (ToDo App)**  
 	
 	Concepts: JSON object | JSON object array
 
-* **V5: [ToDo App] Styling completed tasks**
+* **Chapter 5: Styling completed tasks (ToDo App)**
 	
 	Concepts: ng-class
 
-* **V6: [ToDo App] Showing progress** 
+* **Chapter 6: Showing progress (ToDo App)** 
 	
 	Concepts: {{ function() }}
 
-* **V7: [ToDo App] Limiting the maximum number of tasks** 
+* **Chapter 7: Limiting the maximum number of tasks (ToDo App)** 
 	
 	Concepts: ng-disabled
 
-* **V8: [ToDo App] Removing tasks** 
+* **Chapter 8: Removing tasks (ToDo App)** 
 	
 	Concepts: ng-click
 
-* **V9: [ToDo App] Handling an empty taks list** 
+* **Chapter 9: Handling an empty task list (ToDo App)** 
 	
 	Concepts: ng-show
 
-* **V10: [ToDo App] Editing tasks** 
+* **Chapter 10: Editing tasks (ToDo App)** 
 	
 	Concepts: ng-show | ng-class 
 
-* **V11: [ToDo App] Sorting tasks**  
+* **Chapter 11: Sorting tasks (ToDo App)**  
 	
 	Concepts: using 3rd party modules | ui-sortable |  
 
-* **V12: [ToDo App] Splitting module and controller** 
+* **Chapter 12: Structuring the app code (ToDo App)** 
 	
 	Concepts: separate js files for module and controller  
 
-* **V13: [ToDo App] Accessing the backend API ** 
+* **Chapter 13: Using service (ToDo App)** 
 	
-	Concepts: ng-change | service | REST API | promise | localStorage 
+	Concepts: ng-change | service | localStorage 
 	
-* **V14: Creating Custom UI Widgets**
+* **Chapter 14: Creating Custom HTML elements**
 	
 	Concepts: custom directives | widget library | KendoUI   
 
-* **V15: Architecting complex applications **
+* **Chapter 15: Architecting complex applications**
 	
 	URL: [Example project](https://github.com/git-mhaque/Angular-SPA-WebAPI)
 	
-	Concepts: routing | partials | SPA    
+	Concepts: routing | partials | SPA | REST API | promise     

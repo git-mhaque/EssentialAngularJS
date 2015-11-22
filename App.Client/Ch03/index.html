@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ToDo</title>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.3/sortable.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.min.css" rel="stylesheet" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="app.js"></script>
+</head>
+<body>
+    
+    <div ng-app="todoApp" class="container list-container">
+        <div ng-controller="todoController">
+
+            <input type="text" placeholder="Add new item" class="form-control"
+                   ng-model="newItem" ng-keypress="newItemKeyPress($event)" />
+
+            <h4>To Do</h4>
+
+            <div ng-repeat="item in items" class="list-item" >
+                <span>{{item}}&nbsp;</span>
+            </div>
+
+            <hr />
+            <!--div class="alert alert-info">
+                {{items | json}}
+            </div-->
+
+        </div>
+    </div>
+         
+
+</body>
+</html>

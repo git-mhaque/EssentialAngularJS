@@ -57,12 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="RegistryApp\summary.html" />
-    <Content Include="RegistryApp\footer.html" />
-    <Content Include="RegistryApp\header.html" />
-    <Content Include="RegistryApp\patientHome.html" />
-    <Content Include="RegistryApp\home.html" />
-    <Content Include="ToDoApp\readme.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -71,53 +65,48 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="RegistryApp\app.js" />
-    <Content Include="RegistryApp\baseline.html" />
-    <Content Include="RegistryApp\demographic.html" />
-    <Content Include="RegistryApp\index.html" />
-    <Content Include="RegistryApp\style.css" />
-    <Content Include="ToDoApp\V00\app.js" />
-    <Content Include="ToDoApp\V00\index.html" />
-    <Content Include="ToDoApp\V00\style.css" />
-    <Content Include="ToDoApp\V01\app.js" />
-    <Content Include="ToDoApp\V01\index.html" />
-    <Content Include="ToDoApp\V01\style.css" />
-    <Content Include="ToDoApp\V02\app.js" />
-    <Content Include="ToDoApp\V02\index.html" />
-    <Content Include="ToDoApp\V02\style.css" />
-    <Content Include="ToDoApp\V03\app.js" />
-    <Content Include="ToDoApp\V03\index.html" />
-    <Content Include="ToDoApp\V03\style.css" />
-    <Content Include="ToDoApp\V04\app.js" />
-    <Content Include="ToDoApp\V04\index.html" />
-    <Content Include="ToDoApp\V04\style.css" />
-    <Content Include="ToDoApp\V05\app.js" />
-    <Content Include="ToDoApp\V05\index.html" />
-    <Content Include="ToDoApp\V05\style.css" />
-    <Content Include="ToDoApp\V06\app.js" />
-    <Content Include="ToDoApp\V06\index.html" />
-    <Content Include="ToDoApp\V06\style.css" />
-    <Content Include="ToDoApp\V07\app.js" />
-    <Content Include="ToDoApp\V07\index.html" />
-    <Content Include="ToDoApp\V07\style.css" />
-    <Content Include="ToDoApp\V08\app.js" />
-    <Content Include="ToDoApp\V08\index.html" />
-    <Content Include="ToDoApp\V08\style.css" />
-    <Content Include="ToDoApp\V09\app.js" />
-    <Content Include="ToDoApp\V09\index.html" />
-    <Content Include="ToDoApp\V09\style.css" />
-    <Content Include="ToDoApp\V10\app.js" />
-    <Content Include="ToDoApp\V10\index.html" />
-    <Content Include="ToDoApp\V10\style.css" />
-    <Content Include="ToDoApp\V11\app.js" />
-    <Content Include="ToDoApp\V11\index.html" />
-    <Content Include="ToDoApp\V11\style.css" />
-    <Content Include="ToDoApp\V11\todoController.js" />
-    <Content Include="ToDoApp\V12\app.js" />
-    <Content Include="ToDoApp\V12\index.html" />
-    <Content Include="ToDoApp\V12\style.css" />
-    <Content Include="ToDoApp\V12\todoController.js" />
-    <Content Include="ToDoApp\V12\todoService.js" />
+    <Content Include="Ch00\app.js" />
+    <Content Include="Ch00\index.html" />
+    <Content Include="Ch00\style.css" />
+    <Content Include="Ch01\app.js" />
+    <Content Include="Ch01\index.html" />
+    <Content Include="Ch01\style.css" />
+    <Content Include="Ch03\app.js" />
+    <Content Include="Ch03\index.html" />
+    <Content Include="Ch03\style.css" />
+    <Content Include="Ch04\app.js" />
+    <Content Include="Ch04\index.html" />
+    <Content Include="Ch04\style.css" />
+    <Content Include="Ch05\app.js" />
+    <Content Include="Ch05\index.html" />
+    <Content Include="Ch05\style.css" />
+    <Content Include="Ch06\app.js" />
+    <Content Include="Ch06\index.html" />
+    <Content Include="Ch06\style.css" />
+    <Content Include="Ch07\app.js" />
+    <Content Include="Ch07\index.html" />
+    <Content Include="Ch07\style.css" />
+    <Content Include="Ch08\app.js" />
+    <Content Include="Ch08\index.html" />
+    <Content Include="Ch08\style.css" />
+    <Content Include="Ch09\app.js" />
+    <Content Include="Ch09\index.html" />
+    <Content Include="Ch09\style.css" />
+    <Content Include="Ch10\app.js" />
+    <Content Include="Ch10\index.html" />
+    <Content Include="Ch10\style.css" />
+    <Content Include="Ch11\app.js" />
+    <Content Include="Ch11\index.html" />
+    <Content Include="Ch11\style.css" />
+    <Content Include="Ch12\app.js" />
+    <Content Include="Ch12\index.html" />
+    <Content Include="Ch12\style.css" />
+    <Content Include="Ch12\todoController.js" />
+    <Content Include="Ch13\app.js" />
+    <Content Include="Ch13\index.html" />
+    <Content Include="Ch13\style.css" />
+    <Content Include="Ch13\todoController.js" />
+    <Content Include="Ch13\todoService.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
