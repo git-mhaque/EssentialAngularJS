@@ -53,14 +53,14 @@
 
 
     $scope.isEmptyList = function () {
-        return $scope.items.length == 0;
+        return $scope.items.length === 0;
     };
 
     $scope.getProgress = function () {
         var completedCount = 0;
         var listSize = $scope.items.length;
 
-        for (i = 0; i < listSize; i++) {
+        for (var i = 0; i < listSize; i++) {
             if ($scope.items[i].isDone) {
                 completedCount++;
             }
