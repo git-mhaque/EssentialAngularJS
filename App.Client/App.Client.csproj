@@ -71,6 +71,9 @@
     <Content Include="Step01\app.js" />
     <Content Include="Step01\index.html" />
     <Content Include="Step01\style.css" />
+    <Content Include="Step02\app.js" />
+    <Content Include="Step02\index.html" />
+    <Content Include="Step02\style.css" />
     <Content Include="Step03\app.js" />
     <Content Include="Step03\index.html" />
     <Content Include="Step03\style.css" />
@@ -115,6 +118,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
